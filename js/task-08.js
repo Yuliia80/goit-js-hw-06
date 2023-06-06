@@ -16,5 +16,6 @@ function OnSubmit(event) {
     profile.password = password.value;
     console.log(profile);
   }
-  event.target.reset();
+  
 }
+
