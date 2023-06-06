@@ -5,7 +5,7 @@ loginFormEl.addEventListener('submit', OnSubmit);
 const profile = {};
 
 function OnSubmit(event) {
-  event.preventDefault();
+  // event.preventDefault();
   const email = event.target.elements.email;
   const password = event.target.elements.password;
 
